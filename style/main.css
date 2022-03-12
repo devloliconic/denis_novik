@@ -1,0 +1,136 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    margin: 0 auto;
+    max-width: 943px;
+    padding: 0 14px;
+}
+.header-navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    gap: 150px;
+    margin-bottom: 33px;
+}
+.header-navigation li{
+    max-height: 22px ;
+}
+.header{
+    padding-top: 33px;
+    padding-bottom: 20px;
+}
+.navigation__icon{
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-weight: 100;
+    font-size: 18px;
+    line-height: 21px;
+    color: #070707;
+    max-height:22px ;
+}
+.header-line{
+    max-width: 943px;
+    background-color: #828282;
+    height: 1px;
+}
+.bg-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bg{
+    margin-bottom: 104px;
+}
+.bg-box p{
+    margin: 0;
+    margin-bottom: 42px;
+}
+.bg-box-title{
+    color: black;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 47.3392px;
+    max-width: 123.51px;
+}
+.bg-box-subtitle{
+    font-style: italic;
+    font-weight: 100;
+    font-size: 18px;
+    line-height: 21px;
+    max-width: 156px;
+    align-self: flex-end;
+}
+.bg-box-rueng{
+    transform: rotate(270deg);
+    font-style: italic;
+    font-weight: 100;
+    font-size: 16px;
+    line-height: 19px;
+}
+.about_me{
+    background-color: #F6F6F6;
+    padding: 90px 0;
+    text-align: center;
+    margin-bottom: 80px;
+}
+.me-title{
+    font-style: italic;
+    font-weight: 100;
+    font-size: 34px;
+    line-height: 40px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.me-subtitle{
+    margin: 0 auto;
+    margin-bottom: 40px;
+    max-width: 500px;
+    font-style: italic;
+    font-weight: 100;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+}
+.skils-title{
+    font-style: italic;
+    font-weight: 100;
+    font-size: 34px;
+    line-height: 40px;
+    text-align: center;
+    margin-bottom: 54px;
+}
+.skils-subtitle{
+    font-style: italic;
+    font-weight: 100;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    margin-bottom: 83px ;
+}
+.skils{
+    padding-bottom: 100px;
+}
+.skils-star{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.skils-star-items{
+    text-align: center;
+}
+.skils-text{
+    max-width: 76.29px;
+    margin: 0 auto;
+    margin-top: 24px;
+    margin-bottom: 40px;
+    
+    color: #828282;
+    font-style: italic;
+    font-weight: 100;
+    font-size: 14px;
+    line-height: 16px;
+}
