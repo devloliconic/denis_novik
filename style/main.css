@@ -113,6 +113,7 @@ body{
 }
 .skils{
     padding-bottom: 100px;
+    margin-bottom: 120px;
 }
 .skils-star{
     display: flex;
@@ -133,4 +134,86 @@ body{
     font-weight: 100;
     font-size: 14px;
     line-height: 16px;
+}
+.portfolio{
+    background-color: #F6F6F6;
+    padding-bottom: 96px;
+}
+.portfolio-title{
+    text-align: center;
+    font-style: italic;
+    font-weight: 100;
+    font-size: 34px;
+    line-height: 40px;
+    margin-bottom: 50px;
+}
+.portfolio-skrin-box img{
+    margin-bottom: 60px;
+}
+.portfolio-skrin-box-link{
+    display: block;
+    text-align: center;
+    font-style: italic;
+    font-weight: 100;
+    font-size: 18px;
+    line-height: 21px;
+    text-decoration-line: underline;
+    color: #070707;
+}
+.portfolio-skrin-box{
+    margin-bottom: 99px;
+}
+.footer{
+    padding-top: 100px;
+    padding-bottom: 123px;
+}
+.footer-title{
+    font-style: italic;
+    font-weight: 100;
+    font-size: 34px;
+    line-height: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.footer-subtitle{
+    font-style: italic;
+    font-weight: 100;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    margin-bottom: 42px;
+}
+.footer-btn{
+    display: block;
+    text-align: center;
+    padding: 13px 4px 13px 4px;
+    background-color: black;
+    max-width: 180px;
+    margin: 0 auto;
+    border-radius: 40px;
+    text-decoration: none;
+    color: white;
+    font-style: italic;
+    font-weight: 100;
+    font-size: 18px;
+    line-height: 21px;
+    margin-bottom: 92px;
+}
+.footer-link-flex{
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap :70px;
+    padding-bottom: 45px;
+}
+.footer-last-text{
+    text-align: center;
+    color: #828282;
+    font-weight: 100;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+
 }
