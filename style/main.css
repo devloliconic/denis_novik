@@ -186,7 +186,7 @@ body{
 .footer-btn{
     display: block;
     text-align: center;
-    padding: 13px 4px 13px 4px;
+    padding: 12px 3px 12px 3px;
     background-color: black;
     max-width: 180px;
     margin: 0 auto;
@@ -197,7 +197,13 @@ body{
     font-weight: 100;
     font-size: 18px;
     line-height: 21px;
-    margin-bottom: 92px;
+    margin-bottom: 93px;
+    cursor: pointer;
+}
+.footer-btn:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
 }
 .footer-link-flex{
     padding: 0;
@@ -216,4 +222,29 @@ body{
     line-height: 16px;
     text-align: center;
 
+}
+.footer-link-flex li{
+    width: 41px;
+    height: 41px;
+}
+.footer__web{
+    display: block;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 41px;
+    height: 41px;
+    max-width: 100px;
+}
+.footer__link1{
+    background-image: url(../img/footer/01.svg);
+}
+.footer__link2{
+    background-image: url(../img/footer/02.svg);
+}
+.footer__link3{
+    background-image: url(../img/footer/03.svg);
+}
+.footer__link4{
+    background-image: url(../img/footer/04.svg);
 }
